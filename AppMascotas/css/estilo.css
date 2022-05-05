@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@700&display=swap');
+#titulo {
+    background-color: #ff4c68;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar {
+    padding-bottom: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat-Light', sans-serif;
+    font-weight: 100;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.title-image {
+    width: 350px;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 275px;
+}
+
+#caracteristicas {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+
+@media (max-width: 1028px) {
+    #titulo {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+.caja-caracteristica {
+    padding: 50px;
+    text-align: center;
+}
+
+.fa-align-left {
+    color: #ff4c68;
+}
+
+.fa-paw {
+    color: #ff4c68;
+}
+
+.fa-book {
+    color: #ff4c68;
+}
+
+.color_carousel {
+    background-color: #ff4c68;
+    padding: 10%;
+    text-align: center;
+}
+
+.foto_perro_mujer {
+    border-radius: 100%;
+    width: 10%;
+}
+
+.texto_carousel {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #fff;
+}
+
+#precios {
+    padding: 100px;
+    text-align: center;
+}
+
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.encabezado-cta {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+#footer {
+    padding: 5% 5%;
+    text-align: center;
+}
